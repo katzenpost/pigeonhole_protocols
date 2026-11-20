@@ -44,6 +44,8 @@ and `discovery`. The services built on them:
 - [`status-bot`](status-bot.md) reports on the mixnet.
 - `motd`, the message of the day service in Go (`go/services/motd`, `go/cmd/motd-service`), and
   its client (`go/clients/motd`, `go/cmd/motd`).
+- `gemini`, a Gemini gateway in Go (`go/services/gemini`, `go/cmd/pigeonhole-gemini-service`),
+  and its client (`go/clients/gemini`, `go/cmd/pigeonhole-gemini`).
 - `go/cmd/pigeonhole-echo`, an echo service, and `go/cmd/pigeonhole-voucher`, which lists the
   directory and routes a voucher to a service.
 
